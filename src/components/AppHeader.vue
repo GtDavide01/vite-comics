@@ -61,18 +61,21 @@ export default{
 </script>
 
 <template>
-    <header>
-        <div class="logodc">
-            <img src="../assets/img/dc-logo.png" alt="">
-        </div>
-        <div class="menudc">
-            <ul>
-                <li v-for="(valore , index ) in listMenu" :key="index">
-                <a :class="{ 'active': valore.active }" href="{{valore.href}}">{{valore.title}}</a>    
-                </li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <div class="logodc">
+                <img src="../assets/img/dc-logo.png" alt="">
+            </div>
+            <div class="menudc">
+                <ul>
+                    <li v-for="(valore , index ) in listMenu" :key="index">
+                    <a :class="{ 'active': valore.active }" href="{{valore.href}}">{{valore.title}}</a>    
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    
 </template>
 
 

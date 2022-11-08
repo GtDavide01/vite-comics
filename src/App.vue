@@ -2,9 +2,11 @@
 <script>
 // Import
 import AppHeaderVue from './components/AppHeader.vue';
+import AppMainVue from './components/AppMain.vue';
 export default{
     components: {
       AppHeaderVue,
+      AppMainVue,
     }
   }
 </script>
@@ -13,11 +15,11 @@ export default{
 
 <!-- HTML -->
 <template>
-  <div class="container">
     <!-- HEADER -->
     <AppHeaderVue/>
-  </div>
-  
+    <!-- MAIN -->
+    <AppMainVue />
+    <!-- FOOTER -->
 </template>
 
 

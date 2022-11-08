@@ -54,7 +54,7 @@ export default{
     .contentmenu{
         display: flex;
         background-color: #1c1c1c;
-        height: 150px;
+        min-height: 150px;
         align-items: center;
         h2{
             color: white;
@@ -65,7 +65,7 @@ export default{
         justify-content: center;
         display: flex;
         align-items: center;
-        height: 170px;
+        min-height: 170px;
         background-color: #0282f9;
         ul{
             justify-content: space-between;

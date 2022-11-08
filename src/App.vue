@@ -3,10 +3,12 @@
 // Import
 import AppHeaderVue from './components/AppHeader.vue';
 import AppMainVue from './components/AppMain.vue';
+import AppFooterVue from './components/AppFooter.vue';
 export default{
     components: {
       AppHeaderVue,
       AppMainVue,
+      AppFooterVue,
     }
   }
 </script>
@@ -20,6 +22,7 @@ export default{
     <!-- MAIN -->
     <AppMainVue />
     <!-- FOOTER -->
+    <AppFooterVue />
 </template>
 
 

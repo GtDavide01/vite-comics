@@ -126,6 +126,9 @@
     }
     .footer-bottom{
             background-color: #303030;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             .allfooter{
             display: flex;
         }
